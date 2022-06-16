@@ -92,8 +92,8 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db',
-        'USER': 'user',
+        'NAME': 'docker',
+        'USER': 'root',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '3360',
